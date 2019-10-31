@@ -1,0 +1,99 @@
+body{
+    margin: auto;
+    width: 99.7%;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    background: -webkit-linear-gradient(top,aqua,blue);
+}
+.logo{
+    font-size: 50px;
+    padding: 5px;
+    padding-right: 70px;
+    text-decoration-style: none;
+    float: right;
+    color: black;
+}
+.menu{
+    height: 70px;
+    float: left;
+   
+}
+ul li a{ 
+  font-size: 20px;
+   display: block;
+   padding-bottom: 5px;padding-top: 5px;
+   padding-left: 10px;padding-right: 10px;
+   color: blanchedalmond;
+}
+ul li{
+    float: left;
+    margin:5px;
+    border-radius: 10%;
+    list-style: none;
+}
+ul li:hover{
+    background: yellow;
+}
+ul li a:hover{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+
+
+.courses ul{
+    position: absolute;
+    visibility: hidden;
+    width:120px;
+    background: -webkit-linear-gradient(left,aqua,blue);
+    border-radius: 5%;
+    align-self: auto;
+    
+}
+
+.courses:hover ul{
+     visibility: visible;
+}
+#registration-container{
+  width: 350px;
+    padding: 20px;
+    background: #f7f7f7;
+    border-radius: 4px;
+    border: 1px solid #dbdbdb;
+    margin: 50px auto;
+}
+.google-content{
+    background: #fff;
+    border-radius: 2px;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 7px 10px;
+    margin: 15px 0 5px;
+}
+input[type=text] {
+  width: 100%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 4px; 
+
+}
+
+label{
+    font-family: helvetica;
+}
+button{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 5px 150px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
